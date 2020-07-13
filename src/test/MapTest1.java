@@ -12,7 +12,7 @@ public class MapTest1 {
 			int sum=map.get("age")+i;
 			map.put("age", sum);					
 		}
-	System.out.println(map);	
+	System.out.println(map.get("age"));	
 	
 
 	}

@@ -8,4 +8,12 @@
 <servlet-name> BoardServlet</servlet-name> 
 <url-pattern>/board.do</url-pattern>
 </servlet-mapping>
+<servlet>
+ <servlet-name>MemberBoardServlet</servlet-name>
+    <servlet-class>servlet.MemberBoardServlet</servlet-class>  
+</servlet>
+<servlet-mapping>
+<servlet-name> MemberBoardServlet</servlet-name> 
+<url-pattern>/member.do</url-pattern>
+</servlet-mapping>
 </web-app>
