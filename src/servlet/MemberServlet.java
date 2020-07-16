@@ -41,8 +41,8 @@ public class MemberServlet extends HttpServlet {
 			throws ServletException, IOException {
 		request.setCharacterEncoding("utf-8");
 		Map<String, String> map = mapToMap(request.getParameterMap());
-		Map<String, Object> rMap = memberService.insertMember(map);
-		memberService.insertMember(map);
+//		Map<String, Object> rMap = memberService.insertMember(map);
+//		memberService.insertMember(map);
 		System.out.println(map);
 		doGet(request, response);
 	}
